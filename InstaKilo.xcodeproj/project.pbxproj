@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		928C928E1D36866A00FE0B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C928D1D36866A00FE0B41 /* main.m */; };
+		928C92911D36866A00FE0B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C92901D36866A00FE0B41 /* AppDelegate.m */; };
+		928C92941D36866A00FE0B41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C92931D36866A00FE0B41 /* ViewController.m */; };
+		928C92971D36866A00FE0B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928C92951D36866A00FE0B41 /* Main.storyboard */; };
+		928C92991D36866A00FE0B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928C92981D36866A00FE0B41 /* Assets.xcassets */; };
+		928C929C1D36866A00FE0B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928C929A1D36866A00FE0B41 /* LaunchScreen.storyboard */; };
+		928C92A51D36890F00FE0B41 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C92A41D36890F00FE0B41 /* CollectionViewCell.m */; };
+		928C92AD1D36893D00FE0B41 /* AceVenturaAnimated.png in Resources */ = {isa = PBXBuildFile; fileRef = 928C92A61D36893D00FE0B41 /* AceVenturaAnimated.png */; };
+		928C92AE1D36893D00FE0B41 /* Castle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 928C92A71D36893D00FE0B41 /* Castle.jpg */; };
+		928C92B01D36893D00FE0B41 /* MichelangeloTMNT.png in Resources */ = {isa = PBXBuildFile; fileRef = 928C92A91D36893D00FE0B41 /* MichelangeloTMNT.png */; };
+		928C92B11D36893D00FE0B41 /* Pikachu.png in Resources */ = {isa = PBXBuildFile; fileRef = 928C92AA1D36893D00FE0B41 /* Pikachu.png */; };
+		928C92B21D36893D00FE0B41 /* Superhero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 928C92AB1D36893D00FE0B41 /* Superhero.jpg */; };
+		928C92B51D36896800FE0B41 /* ToyStoryAlien.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 928C92B41D36896800FE0B41 /* ToyStoryAlien.jpg */; };
+		928C92B71D36896F00FE0B41 /* GameofThronesWallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 928C92B61D36896F00FE0B41 /* GameofThronesWallpaper.jpg */; };
+		928C92C01D36947700FE0B41 /* Images.m in Sources */ = {isa = PBXBuildFile; fileRef = 928C92BF1D36947700FE0B41 /* Images.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		928C92891D36866A00FE0B41 /* InstaKilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaKilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		928C928D1D36866A00FE0B41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928C928F1D36866A00FE0B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		928C92901D36866A00FE0B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		928C92921D36866A00FE0B41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		928C92931D36866A00FE0B41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		928C92961D36866A00FE0B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928C92981D36866A00FE0B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928C929B1D36866A00FE0B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		928C929D1D36866A00FE0B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928C92A31D36890F00FE0B41 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		928C92A41D36890F00FE0B41 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		928C92A61D36893D00FE0B41 /* AceVenturaAnimated.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AceVenturaAnimated.png; sourceTree = "<group>"; };
+		928C92A71D36893D00FE0B41 /* Castle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Castle.jpg; sourceTree = "<group>"; };
+		928C92A91D36893D00FE0B41 /* MichelangeloTMNT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MichelangeloTMNT.png; sourceTree = "<group>"; };
+		928C92AA1D36893D00FE0B41 /* Pikachu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pikachu.png; sourceTree = "<group>"; };
+		928C92AB1D36893D00FE0B41 /* Superhero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Superhero.jpg; sourceTree = "<group>"; };
+		928C92B41D36896800FE0B41 /* ToyStoryAlien.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ToyStoryAlien.jpg; sourceTree = "<group>"; };
+		928C92B61D36896F00FE0B41 /* GameofThronesWallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GameofThronesWallpaper.jpg; sourceTree = "<group>"; };
+		928C92BE1D36947700FE0B41 /* Images.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Images.h; sourceTree = "<group>"; };
+		928C92BF1D36947700FE0B41 /* Images.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Images.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928C92861D36866A00FE0B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928C92801D36866A00FE0B41 = {
+			isa = PBXGroup;
+			children = (
+				928C928B1D36866A00FE0B41 /* InstaKilo */,
+				928C928A1D36866A00FE0B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928C928A1D36866A00FE0B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928C92891D36866A00FE0B41 /* InstaKilo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928C928B1D36866A00FE0B41 /* InstaKilo */ = {
+			isa = PBXGroup;
+			children = (
+				928C928F1D36866A00FE0B41 /* AppDelegate.h */,
+				928C92901D36866A00FE0B41 /* AppDelegate.m */,
+				928C92921D36866A00FE0B41 /* ViewController.h */,
+				928C92931D36866A00FE0B41 /* ViewController.m */,
+				928C92A31D36890F00FE0B41 /* CollectionViewCell.h */,
+				928C92A41D36890F00FE0B41 /* CollectionViewCell.m */,
+				928C92BE1D36947700FE0B41 /* Images.h */,
+				928C92BF1D36947700FE0B41 /* Images.m */,
+				928C92951D36866A00FE0B41 /* Main.storyboard */,
+				928C92A61D36893D00FE0B41 /* AceVenturaAnimated.png */,
+				928C92A71D36893D00FE0B41 /* Castle.jpg */,
+				928C92A91D36893D00FE0B41 /* MichelangeloTMNT.png */,
+				928C92AA1D36893D00FE0B41 /* Pikachu.png */,
+				928C92AB1D36893D00FE0B41 /* Superhero.jpg */,
+				928C92B61D36896F00FE0B41 /* GameofThronesWallpaper.jpg */,
+				928C92B41D36896800FE0B41 /* ToyStoryAlien.jpg */,
+				928C92981D36866A00FE0B41 /* Assets.xcassets */,
+				928C929A1D36866A00FE0B41 /* LaunchScreen.storyboard */,
+				928C929D1D36866A00FE0B41 /* Info.plist */,
+				928C928C1D36866A00FE0B41 /* Supporting Files */,
+			);
+			path = InstaKilo;
+			sourceTree = "<group>";
+		};
+		928C928C1D36866A00FE0B41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928C928D1D36866A00FE0B41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928C92881D36866A00FE0B41 /* InstaKilo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928C92A01D36866A00FE0B41 /* Build configuration list for PBXNativeTarget "InstaKilo" */;
+			buildPhases = (
+				928C92851D36866A00FE0B41 /* Sources */,
+				928C92861D36866A00FE0B41 /* Frameworks */,
+				928C92871D36866A00FE0B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaKilo;
+			productName = InstaKilo;
+			productReference = 928C92891D36866A00FE0B41 /* InstaKilo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928C92811D36866A00FE0B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anthony Ma";
+				TargetAttributes = {
+					928C92881D36866A00FE0B41 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2PK72MH92Y;
+					};
+				};
+			};
+			buildConfigurationList = 928C92841D36866A00FE0B41 /* Build configuration list for PBXProject "InstaKilo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928C92801D36866A00FE0B41;
+			productRefGroup = 928C928A1D36866A00FE0B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928C92881D36866A00FE0B41 /* InstaKilo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928C92871D36866A00FE0B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928C929C1D36866A00FE0B41 /* LaunchScreen.storyboard in Resources */,
+				928C92B21D36893D00FE0B41 /* Superhero.jpg in Resources */,
+				928C92991D36866A00FE0B41 /* Assets.xcassets in Resources */,
+				928C92B11D36893D00FE0B41 /* Pikachu.png in Resources */,
+				928C92AE1D36893D00FE0B41 /* Castle.jpg in Resources */,
+				928C92AD1D36893D00FE0B41 /* AceVenturaAnimated.png in Resources */,
+				928C92B51D36896800FE0B41 /* ToyStoryAlien.jpg in Resources */,
+				928C92971D36866A00FE0B41 /* Main.storyboard in Resources */,
+				928C92B01D36893D00FE0B41 /* MichelangeloTMNT.png in Resources */,
+				928C92B71D36896F00FE0B41 /* GameofThronesWallpaper.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928C92851D36866A00FE0B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928C92941D36866A00FE0B41 /* ViewController.m in Sources */,
+				928C92911D36866A00FE0B41 /* AppDelegate.m in Sources */,
+				928C92A51D36890F00FE0B41 /* CollectionViewCell.m in Sources */,
+				928C92C01D36947700FE0B41 /* Images.m in Sources */,
+				928C928E1D36866A00FE0B41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		928C92951D36866A00FE0B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928C92961D36866A00FE0B41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		928C929A1D36866A00FE0B41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928C929B1D36866A00FE0B41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928C929E1D36866A00FE0B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		928C929F1D36866A00FE0B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928C92A11D36866A00FE0B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaKilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AM.InstaKilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		928C92A21D36866A00FE0B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaKilo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AM.InstaKilo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928C92841D36866A00FE0B41 /* Build configuration list for PBXProject "InstaKilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C929E1D36866A00FE0B41 /* Debug */,
+				928C929F1D36866A00FE0B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928C92A01D36866A00FE0B41 /* Build configuration list for PBXNativeTarget "InstaKilo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928C92A11D36866A00FE0B41 /* Debug */,
+				928C92A21D36866A00FE0B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928C92811D36866A00FE0B41 /* Project object */;
+}
